@@ -1,0 +1,45 @@
+body {
+    background-color: plum;
+}
+#ValueTitle{
+    color: white;
+    font-style: italic;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+
+    position: fixed;
+    left: 20%;
+    top: 10%;
+}
+
+.ButtonRow {
+    cursor: pointer;
+    float: left;
+
+    position: fixed;
+    left: 10%;
+    top: 20%;
+}
+
+.ButtonRow button:not(:last-child) {
+    border-right: none;
+}
+
+.ButtonRow button:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.Button{
+    cursor: pointer;
+    border: none;
+    padding: 10px 20  px;
+    color: white;
+    background-color: plum;
+    font-style: italic;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
