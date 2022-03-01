@@ -1,1 +1,1 @@
-Folder of school projects
+# Folder of school projects #
