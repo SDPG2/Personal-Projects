@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './AppComponents/AppBar';
 import HomePage from './Pages/Home';
+import MensPage from './Pages/Men';
 
 function App() {
   const title = "Val(You)"
@@ -8,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-        <h1>{ title }</h1>
+        <h1 className='title'>
+          { title }
+        </h1>
         <NavBar />
         <HomePage />
       </div>
